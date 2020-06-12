@@ -14,7 +14,7 @@ def rewind(f):
 
 
 def print_a_line(line_count, f):
-    print line_count, f.readline()
+    print line_count, f.readline(),  # second comma to remove extra new line
 
 
 current_file = open(input_file)
